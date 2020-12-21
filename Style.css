@@ -9,3 +9,16 @@
     font-size: 30px;
     margin-bottom: 10px;
 }
+
+#lo{
+    height: 450px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(122, 138, 138);
+    font-size: 50px;
+}
