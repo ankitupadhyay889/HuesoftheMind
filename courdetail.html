@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/ako.ico" type="image/x-icon">
+    <title>Cirm</title>
+    <link rel="stylesheet" href="../Style.css">
+</head>
+<body>
+    <header class="text-gray-700 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="/FrontPage/Front.html">
+          <img src="../img/amk.jpg" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </img>
+          <span class="ml-3 text-xl">Crim</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-gray-900" href="../6issue.html">All Courses</a>
+          <a class="mr-5 hover:text-gray-900">Sign in</a>
+          <a class="mr-5 hover:text-gray-900">Sign up</a>
+        </nav>
+      </div>
+    </header>
+
+
+<!-- ********************************************************************************************************************************************* -->
+
+<section class="text-gray-700 body-font bg-red-200">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Popular courses</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Get started with these popular intro courses.</p>
+      </div>
+    </div>
+</section>
+
+<!-- ********************************************************************************************************************************************* -->
+
+
+<section class="text-gray-700 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="data:image/png;base64,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" alt="blog">
+            <div class="p-6">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">HTML & CSS Crash Course</h1>
+              <p class="leading-relaxed mb-3">30Lessons | 4hr</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="data:image/png;base64,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" alt="blog">
+            <div class="p-6">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Javascript</h1>
+              <p class="leading-relaxed mb-3">43Lessons | 1hr</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="blog">
+            <div class="p-6">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Learn React for free</h1>
+              <p class="leading-relaxed mb-3">58Lessons | 1hr</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- ********************************************************************************************************************************************* -->
+
+
+<footer class="text-gray-700 body-font">
+    <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <img src="../img/amk.jpg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </img>
+          <span class="ml-3 text-xl">Crim</span>
+        </a>
+        <p class="mt-2 text-sm text-gray-500">Become a frontend developer</p>
+      </div>
+      <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Discord</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Twitter</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">YouTube</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">GitHub</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Resources</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Blog</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">FAQ</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Terms</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Privacy</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Courses</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">All Courses</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Intro Courses</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Learn Javascript</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Learn React</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Company</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">About Us</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Contact Us</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Support Chat</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Start Teaching</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+</body>
+</html>
